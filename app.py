@@ -31,6 +31,4 @@ demo = gr.ChatInterface(
     description="Upload files and send messages to the chatbot.",
 )
 
-# Launch the Gradio app.
-if __name__ == "__main__":
-    demo.launch(show_error=True)
+demo.launch(show_error=True)
